@@ -1,0 +1,160 @@
+.heading{
+    position: relative;
+}
+img{
+    height:100%;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    width:65px;
+    height:65px;
+    color: white;
+    top:10px;
+    left:190px;
+    margin: 100px;
+}
+.h1{
+    position: absolute;
+    color: white;
+    margin: 3%;
+    top: 175px;
+    text-align: center;
+    left: 70px;
+    margin: 100px;
+}
+.p1{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 30px;
+    font-size: 13px;
+    margin: 100px;
+}
+.mouse{
+    position: absolute;
+    top:340px;
+    left: 320px;
+    width: 30px;
+    height: 45px;
+}
+h2{
+    text-align: center;
+}
+.aboutus{
+    text-align: center;
+}
+.services{
+    position: relative;
+}
+#services{
+    width: 100%;
+    height: initial;
+
+}
+.h3{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    margin: 100px;
+
+}
+.p3{
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    color: white;
+    margin: 10%;
+}
+.h4{
+    text-align: center;
+}
+.whatwedo{
+    text-align:center;
+    margin-left: 0px;
+}
+.design{
+    width: 60px;
+    height: 60px;
+}
+.development{
+    width: 60px;
+    height: 60px;
+}
+.products{
+    width: 60px;
+    height: 60px;
+}
+.portfolio{
+    text-align: center;
+    margin-left:70px;
+}
+.images{
+    margin: 1px;
+    height: 100px;
+    width: 150px;
+    padding: 5px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+}
+.h5{
+    text-align: center;
+
+}
+.contact{
+    position: relative;
+    text-align: center;
+
+}
+.h6{
+    color: white;
+    position: absolute;
+    left: 45.5%;
+    font-size:18px;
+    bottom: 210px;
+}
+#userinput{
+    position:absolute;
+    bottom: 170px;
+    left: 90px;
+}
+#name{
+    background-color: transparent;
+    border: 1px solid white;
+}
+#email{
+    background-color: transparent;
+    border: 1px solid white;
+}
+#textarea{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+#submit{
+    position: absolute;
+    color: blue;
+
+    left: 0px;
+}
+#product-text{
+    display: none;
+}
+#design-text{
+    display: none;
+}
+#development-text{
+    display: none;
+}
+body{
+    margin-left: 50px;
+}
+::placeholder{
+    color: white;
+}
+
+
