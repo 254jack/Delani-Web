@@ -43,8 +43,8 @@ padding-bottom: 20px;}
     display: none;
 }
 body{
-    overflow-x: hiden;
-    background-color: rgba(201, 195, 170, 0.776);
+    overflow-x: hidden;
+    background-color: bisque;
 }
 .portfolio {
     text-align: center;
@@ -109,4 +109,3 @@ color: white;
 
 }
 };
-    
