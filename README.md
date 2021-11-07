@@ -6,7 +6,6 @@ Delani-assignment1 By Jackson Njoroge (author)
 Delani Studio is an apllication that explains inner works of Delani.
 One can know more about delani by visiting this website and also interact with them  like direct conversation through their contacts.
 
-
 ## Technologies Used
 
 1. HTML
