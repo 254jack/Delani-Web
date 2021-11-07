@@ -102,10 +102,3 @@ color: white;
     padding: 5px;
     margin-top: 20PX;
 }
-@media screen  and (max-width: 900px){ 
-    .top{ 
-        transform: translateY(100px)
-    
-
-}
-};
