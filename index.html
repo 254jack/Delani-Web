@@ -2,145 +2,188 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delani Studio</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delani Studio</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
 
-    </style>
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="heading">
-            <img src="images/h_img.jpg" alt="">
-            <img src="images/logo.png" class="logo">
-            <img src="images/mouse_click.png" class="mouse">
-            <h1 class="h1">WELCOME <br>TO DELANI STUDIO</h1>
-            <p class="p1">AMAZING PEOPLE ARE MAKING AMAZING
-                DESINGS IN A FUN ENVIRONMENT</p>
-        </div>
-        <div class="aboutus">
-            <h2>ABOUT US</h2>
-            <p class="p2">When you work with us you are part of
-                a team of commited collaborators.
-                All aspects of our software development
-                process are intergrated,interactive and agile.
-            <p class="p2"> Our approach unufies design,development and
-                product manangement to create exceptional products.
-                we start each project by understanding your business
-                goals,the user's needs and the product requirements.</p>
-            <p class="p2">Then we will help translate them into effective elegant
-                solutions.
-            </p>
-        </div>
-        <div class="services">
-            <img src="images/s_image.jpg" id="services">
-            <h3 class="h3">SERVICES</h3>
-            <p class="p3">Before we sign a contract or write a line of code our team will spend the necccesary time
-                needed
-                to understand your product vision.
-                The outcome of this scoping session is a proposal of high level statement of work.
-                Based on your requirements,we can provide acomplete offering or just the pieces you need.
-            </p>
-        </div>
-        <div class="whatwedo">
-            <h4 class="h4">WHAT WE DO</h4>
-            <div class="row">
-                <div class="col-md-4">
-                    <div id="design">
-                        <p id="design-img"> <img src="images/design_icon.jpg" class="design"><br>
-                            DESIGN</p>
-                        <p id="design-text"> <strong>DESIGN</strong><br> design practice offers a full range of services
-                            including brand strategy,
-                            interaction and
-                            visual
-                            design
-                            and user experience testing. Throughout your project, our designers create and implement
-                            visual
-                            design
-                            and
-                            workflows, solicit user feedback and work with you to make sure what gets built is what is
-                            needed.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div id="development">
-                        <p id="development-img"><img src="images/dev_icon.png" class="development"><br>
-                            DEVELOPMENT</p>
-                        <p id="development-text"> <strong>DEVELOPMENT</strong><br> engineers are fluent in the latest
-                            enterprise,
-                            mobile and web
-                            development
-                            technologies. They
-                            collaborate
-                            with your team to write, and improve code on a daily basis, using proven practices such as
-                            test-driven
-                            development and pair programming.
-                        </p>
-                    </div>
-
-                </div>
-                <div class="col-md-4">
-                    <div id="product">
-                        <p id="products-img"><img src="images/product_icon.png" class="products"><br>
-                            PRODUCT MANANGEMENT</p>
-                        <p id="product-text"> <strong>PRODUCT MANAGEMET</strong><br> and development is iterative.
-                            Because we
-                            are
-                            constantly coding and
-                            testing,
-                            the
-                            products we build
-                            are
-                            always ready to go live. This iterative process allows for changes as business requirements
-                            evolve.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio">
-            <h5 class="h5">PORTFOLIO</h5>
-            <img src="images/work1.jpg" class="images">
-            <img src="images/work2.jpg" class="images">
-            <img src="images/work3.jpg" class="images">
-            <img src="images/work4.jpg" class="images">
-            <img src="images/work5.jpg" class="images">
-            <img src="images/work6.jpg" class="images">
-            <img src="images/work7.jpg" class="images">
-            <img src="images/work8.jpg" class="images">
-        </div>
-        <div class="contact">
-            <img src="images/delani_image.jpg" id="contact">
-            <h6 class="h6">CONTACT US</h6>
-            <form type="text">
-                <div id="userinput">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" placeholder="Name.." id="name" required>
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" placeholder="Email.." id="email" required>
-                        </div>
-                    </div>
-                </div>
-                <textarea placeholder="Put your text here.." name="" id="textarea" cols="47" rows="5" class="text"
-                    required></textarea>
-                <input type="submit">
-                <input type="reset" value="clear">
-            </form>
-        </div>
-
-
+  <div class="container">
+    <div class="heading">
+      <div class="top">
+        <img src="images/logo.png" id="logo">
+        <h1 class="h1">WELCOME <br>TO DELANI STUDIO</h1>
+        <p class="p1">AMAZING PEOPLE ARE MAKING AMAZING
+          DESINGS IN A FUN ENVIRONMENT</p>
+        <img src="images/mouse_click.png" id="mouse">
+      </div>
+      <img src="images/h_img.jpg" id="d-img">
     </div>
+    <div class="aboutus">
+      <h2>ABOUT US</h2>
+      <p class="p2">When you work with us you are part of
+        a team of commited collaborators.
+        All aspects of our software development
+        process are intergrated,interactive and agile.
+      <p class="p2"> Our approach unufies design,development and
+        product manangement to create exceptional products.
+        we start each project by understanding your business
+        goals,the user's needs and the product requirements.</p>
+      <p class="p2">Then we will help translate them into effective elegant
+        solutions.
+      </p>
+    </div>
+    <div class="services">
+      <div class="serve">
+        <h3 class="h3">SERVICES</h3>
+        <p class="p3">Before we sign a contract or write a line of code our team will spend the necccesary time
+          needed
+          to understand your product vision.
+          The outcome of this scoping session is a proposal of high level statement of work.
+          Based on your requirements,we can provide acomplete offering or just the pieces you need.
+        </p>
+      </div>
+      <img src="images/s_image.jpg" id="services">
+    </div>
+    <div class="whatwedo">
+      <h4 class="h4">WHAT WE DO</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <div id="design">
+            <p id="design-img"> <img src="images/design_icon.jpg" class="design"><br>
+              DESIGN</p>
+            <p id="design-text"> <strong>DESIGN</strong><br> design practice offers a full range of services
+              including brand strategy,
+              interaction and
+              visual
+              design
+              and user experience testing. Throughout your project, our designers create and implement
+              visual
+              design
+              and
+              workflows, solicit user feedback and work with you to make sure what gets built is what is
+              needed.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="development">
+            <p id="development-img"><img src="images/dev_icon.png" class="development"><br>
+              DEVELOPMENT</p>
+            <p id="development-text"> <strong>DEVELOPMENT</strong><br> engineers are fluent in the latest
+              enterprise,
+              mobile and web
+              development
+              technologies. They
+              collaborate
+              with your team to write, and improve code on a daily basis, using proven practices such as
+              test-driven
+              development and pair programming.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div id="product">
+            <p id="products-img"><img src="images/product_icon.png" class="products"><br>
+              PRODUCT MANANGEMENT</p>
+            <p id="product-text"> <strong>PRODUCT MANAGEMET</strong><br> and development is iterative.
+              Because we
+              are
+              constantly coding and
+              testing,
+              the
+              products we build
+              are
+              always ready to go live. This iterative process allows for changes as business requirements
+              evolve.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <h3>PORTFOLIO</h3>
+      <div class="portfolio-images">
+        <div class="work">
+          <img id="img-work1" src="images/work1.jpg" style="width:100%">
+        </div>
+        <div class="work">
+          <img id="img-work2" src="images/work2.jpg" style="width:100%">
+        </div>
+        <div class="work">
+          <img id="img-work3" src="images/work3.jpg" style="width:100%">
+        </div>
+        <div class="work">
+          <img id="img-work4" src="images/work4.jpg" style="width:100%">
+        </div>
+      </div>
+      <br>
+      <div class="portfolio-images">
+        <div class="work">
+          <img id="img-work5" src="images/work5.jpg" style="width:100%">
+        </div>
+        <div class="work">
+          <img id="img-work6" src="images/work6.jpg" style="width:100%">
+        </div>
+        <div class="work">
+          <img id="img-work7" src="images/work7.jpg" style="width:100%">
+        </div>
+        <div class="work">
+          <img id="img-work8" src="images/work8.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <div class="contact-us">
+      <div class="contact">
+        <h6 class="h6">CONTACT US</h6>
+        <form type="text">
+          <div id="userinput">
+            <div class="row">
+              <div class="col">
+                <input type="text" placeholder="Name.." id="name" required>
+                <input type="text" placeholder="Email.." id="email" required>
+              </div>
+            </div>
+          </div>
+          <textarea placeholder="Put your text here.." name="" id="textarea" cols="50" rows="4" class="text"
+            required></textarea>
+          <div>
+            <input type="submit">
+            <input type="reset" value="clear">
+          </div>
+        </form>
+      </div>
+      <img src="images/delani_image.jpg" id="contact">
+    </div>
+    <div class="social">
+      <img src="images/twitter.png" alt="">
+      <img src="images/dribble.png" alt="">
+      <img src="images/facebook.png" alt="">
+      <img src="images/g_plus.png" alt="">
+      <img src="images/skype.png" alt="">
+      <img src="images/you_tube.png" alt="">
+      <img src="images/behance.png" alt="">
+      <img src="images/pinterest.png" alt="">
+      <img src="images/stumble_upon.png" alt="">
+      <img src="images/flickr.png" alt="">
+      <div class="footer">
+        <p>DELANI STUDIOS.<br>2021</p><br>
+    
+      </div>
+    </div>
+
+
+  </div>
 </body>
 
 </html>

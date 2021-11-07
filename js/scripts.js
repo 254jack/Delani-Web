@@ -18,6 +18,7 @@ $(document).ready(function() {
 });
 $(document).ready(function(){
   $("form").submit(function(){
-    alert("Hello we have received your message and we are working on it.Thank you for keeping in touch with us.")
+    var name=$("#name").val();
+    alert("Hello "+name+" we have received your message and we are working on it.Thank you for keeping in touch with us.")
   });
 });
