@@ -95,7 +95,7 @@ body {
 }
 
 .contact {
-    transform: translateY(220px);
+    transform: translateY(240px);
     color: white;
     background-color: transparent;
 }
@@ -135,6 +135,8 @@ body {
 
 .social {
     background-color: rgba(228, 214, 214, 0.644);
+    margin-top: 0;
+    padding: 10px;
 }
 
 .footer {
