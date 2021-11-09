@@ -1,46 +1,65 @@
-
-.container{
+.container {
     text-align: center;
 }
-#d-img{
-    height:initial;
+
+#d-img {
+    height: initial;
     width: 100%;
 }
-.top{
-    transform:translate(0px,80px);
-    color: white;
 
+.top {
+    transform: translate(0px, 80px);
+    color: white;
 }
-#d-img{
+
+#d-img {
     margin-top: -300px;
 }
-#logo{
+
+#logo {
     padding: 8px;
 }
-.aboutus{
 
-padding-bottom: 20px;}
-#services{
+.aboutus {
+    padding-bottom: 20px;
+}
+
+#services {
     width: 100%;
     margin-top: -150px;
 }
-.serve{
-    transform: translate(0px,10px);
+
+.services {
+    margin-top: -50px;
+}
+
+.serve {
+    transform: translate(0px, 50px);
     color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-#design-text{
+
+#design-text {
     display: none;
 }
-#development-text{
+
+#development-text {
     display: none;
 }
-#product-text{
+
+#product-text {
     display: none;
 }
-body{
+
+body {
     overflow-x: hidden;
     background-color: bisque;
 }
+
 .portfolio {
     text-align: center;
     margin-left: 10%;
@@ -48,9 +67,25 @@ body{
     margin-top: 50px;
 }
 
+#design-img:hover {
+    text-decoration: underline;
+}
+
+#development-img:hover {
+    text-decoration: underline;
+}
+
+#products-img:hover {
+    text-decoration: underline;
+}
+
 .portfolio-images {
     display: flex;
+}
+
+.work:hover {
     cursor: pointer;
+    opacity: 0.4;
 }
 
 .work {
@@ -58,42 +93,51 @@ body{
     padding: 5px;
     position: relative;
 }
-.contact{
+
+.contact {
     transform: translateY(220px);
     color: white;
     background-color: transparent;
 }
-#contact{
+
+#contact {
     width: 100%;
 }
-.contact-us{
+
+.contact-us {
     margin-top: -200px;
 }
-.col{
+
+.col {
     padding: 20px;
 }
-#name{
+
+#name {
     background-color: transparent;
     border: 1px solid white;
     margin-right: 5px;
 }
-#email{
+
+#email {
     background-color: transparent;
     border: 1px solid white;
     margin-left: 5px;
 }
-#textarea{
+
+#textarea {
     background-color: transparent;
     border: 1px solid white;
 }
-::placeholder{
 
-color: white;
+::placeholder {
+    color: white;
 }
-.social{
-    background-color:rgba(228, 214, 214, 0.644) ;
+
+.social {
+    background-color: rgba(228, 214, 214, 0.644);
 }
-.footer{
+
+.footer {
     padding: 5px;
     margin-top: 20PX;
 }
